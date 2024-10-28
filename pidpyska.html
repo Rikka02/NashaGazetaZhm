@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,600;1,600&family=Sofia+Sans:ital@0;1&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=STIX+Two+Text:ital,wght@0,700;1,700&family=Sofia+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/script.js">
+</head>
+<body>
+    <header>
+        <section>
+        <hr style="margin: 0px 0;">
+        <div class="baner">
+            <img class="image-container" src="image/logo22.png" alt="логотип" ></a>
+        </div>
+        </section>
+        <nav class="navigation">
+            <a href="./index.html">
+            <ul> <!--списки-->
+                <li><a class="link" href="index.html">Головна</a></li>
+                <li><a class="link" href="archiv.html">Архів</a></li>
+                <li><a class="link" href="poslugy.html">Послуги</a></li>
+                <li><a class="link" href="pidpyska.html">Підписка</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section class="form-section">
+        <div class="form-title">
+            <hr>
+            <h1>ПІДПИСКА 📝</h1>
+            <hr>
+        </div>
+        <div class="forma">
+            <form action="send_mail.php" method="POST" class="form-example">
+                <div class="form-example">
+                    <input type="text" name="phone" id="number" placeholder="Номер телефону*" required />
+                </div>
+                <div class="form-example">
+                    <input type="text" name="rubric" id="name" placeholder="ПІБ*" required />
+                </div>
+                <div class="form-example">
+                    <input type="text" name="rubric" id="name" placeholder="Адреса*" required />
+                </div>
+                <div class="form-example">
+                    <textarea type="text" name="period" id="name" placeholder="Період*" required></textarea>
+                </div>
+                <div class="form-example">
+                    <textarea type="text" name="number" id="number" placeholder="Кількість*" required></textarea>
+                </div>
+                <div class="form-example">
+                    <input type="submit" value="Надіслати" id="submit" />
+                </div>
+    </div>
+    </section>
+    <hr style="margin: 0px 0;">
+    </main>
+    <footer>
+        <div class="footer-container">
+            <address>
+                <ul class="address-list">
+                    <li>+ 38 (096) 000 00 07</li>
+                    <li>nasha_gazeta2007@ukr.net</li>
+                    <li >Україна, м. Жмеринка</li>
+                </ul>
+            </address>
+            <ul class="social-media-list">
+                <li>
+                    <a class="soc-link" href="https://www.facebook.com/share/g/1oyuznbiExmepzcd/" target="_blank">
+                        <img src="image/facebook.png" alt="логотип Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a class="soc-link" href="https://www.instagram.com/gazetanashagazeta?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                        <img src="image/instagram.png" alt="логотип Instagram">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p class="address-copyright">&copy; 2024 Дані захищені</p>
+    </footer>
+    <script src="css/script.js"></script>
+</body>
+</html>
